@@ -15,7 +15,7 @@ public abstract class Model{
     String[] properties;
     String primaryKey;
     private static final Connection connection
-            = new Database("root", "8210146", "library").getConnection();
+            = new Database("root", "yourPassword", "library").getConnection();
 
     public Model(String name, String[] properties, String primaryKey) {
         this.name = name;
